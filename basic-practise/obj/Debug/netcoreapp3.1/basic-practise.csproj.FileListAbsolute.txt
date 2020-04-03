@@ -1,0 +1,13 @@
+E:\code\trouble shooting\vb\console-demo\basic-practise\bin\Debug\netcoreapp3.1\basic-practise.exe
+E:\code\trouble shooting\vb\console-demo\basic-practise\bin\Debug\netcoreapp3.1\basic-practise.deps.json
+E:\code\trouble shooting\vb\console-demo\basic-practise\bin\Debug\netcoreapp3.1\basic-practise.runtimeconfig.json
+E:\code\trouble shooting\vb\console-demo\basic-practise\bin\Debug\netcoreapp3.1\basic-practise.runtimeconfig.dev.json
+E:\code\trouble shooting\vb\console-demo\basic-practise\bin\Debug\netcoreapp3.1\basic-practise.dll
+E:\code\trouble shooting\vb\console-demo\basic-practise\bin\Debug\netcoreapp3.1\basic-practise.pdb
+E:\code\trouble shooting\vb\console-demo\basic-practise\obj\Debug\netcoreapp3.1\basic-practise.csprojAssemblyReference.cache
+E:\code\trouble shooting\vb\console-demo\basic-practise\obj\Debug\netcoreapp3.1\basic-practise.csproj.CoreCompileInputs.cache
+E:\code\trouble shooting\vb\console-demo\basic-practise\obj\Debug\netcoreapp3.1\basic-practise.AssemblyInfoInputs.cache
+E:\code\trouble shooting\vb\console-demo\basic-practise\obj\Debug\netcoreapp3.1\basic-practise.AssemblyInfo.cs
+E:\code\trouble shooting\vb\console-demo\basic-practise\obj\Debug\netcoreapp3.1\basic-practise.dll
+E:\code\trouble shooting\vb\console-demo\basic-practise\obj\Debug\netcoreapp3.1\basic-practise.pdb
+E:\code\trouble shooting\vb\console-demo\basic-practise\obj\Debug\netcoreapp3.1\basic-practise.genruntimeconfig.cache

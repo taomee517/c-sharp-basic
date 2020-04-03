@@ -1,0 +1,13 @@
+E:\code\trouble shooting\vb\console-demo\class-demo\obj\Debug\netcoreapp3.1\class-demo.csprojAssemblyReference.cache
+E:\code\trouble shooting\vb\console-demo\class-demo\obj\Debug\netcoreapp3.1\class-demo.csproj.CoreCompileInputs.cache
+E:\code\trouble shooting\vb\console-demo\class-demo\obj\Debug\netcoreapp3.1\class-demo.AssemblyInfoInputs.cache
+E:\code\trouble shooting\vb\console-demo\class-demo\obj\Debug\netcoreapp3.1\class-demo.AssemblyInfo.cs
+E:\code\trouble shooting\vb\console-demo\class-demo\bin\Debug\netcoreapp3.1\class-demo.exe
+E:\code\trouble shooting\vb\console-demo\class-demo\bin\Debug\netcoreapp3.1\class-demo.deps.json
+E:\code\trouble shooting\vb\console-demo\class-demo\bin\Debug\netcoreapp3.1\class-demo.runtimeconfig.json
+E:\code\trouble shooting\vb\console-demo\class-demo\bin\Debug\netcoreapp3.1\class-demo.runtimeconfig.dev.json
+E:\code\trouble shooting\vb\console-demo\class-demo\bin\Debug\netcoreapp3.1\class-demo.dll
+E:\code\trouble shooting\vb\console-demo\class-demo\bin\Debug\netcoreapp3.1\class-demo.pdb
+E:\code\trouble shooting\vb\console-demo\class-demo\obj\Debug\netcoreapp3.1\class-demo.dll
+E:\code\trouble shooting\vb\console-demo\class-demo\obj\Debug\netcoreapp3.1\class-demo.pdb
+E:\code\trouble shooting\vb\console-demo\class-demo\obj\Debug\netcoreapp3.1\class-demo.genruntimeconfig.cache
