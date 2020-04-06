@@ -46,10 +46,15 @@ namespace time_convert
             Console.WriteLine("验证：totalSeconds = {0}", year*yearUnit+month*monthUnit+day*dayUnit+hour*hourUnit+minute*minuteUnit+second);
 
 
-            string strTime = "2020-04-05 15:27:00";
-            DateTime dateTime = Convert.ToDateTime(strTime);
-            Console.WriteLine(dateTime);
+            // 练习三：string 转日期类型
+            
+            // string strTime = "2020-04-05 15:27:00";
+            // DateTime dateTime = Convert.ToDateTime(strTime);
+            // Console.WriteLine(dateTime);
 
+            
+            // 练习四：获取时间戳
+            
             TimeSpan timeSpan = DateTime.Now - new DateTime(1970,1,1,0,0,0);
             long timestamp = Convert.ToInt64(timeSpan.TotalMilliseconds);
             Console.WriteLine("当前时间戳： timestamp = {0}", timestamp);
