@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace for_demo
 {
@@ -24,6 +25,10 @@ namespace for_demo
             int[] array = new[] {23, 134, 64, 15, 9, 98, 46};
             ArrayData ad = new ArrayData();
             ad.FindMinMax(array);
+
+            //对数组进行升序排序
+            ad.PopSort(array,SortType.DESC);
+            ad.ArrayShow(array);
         }
     }
 }
