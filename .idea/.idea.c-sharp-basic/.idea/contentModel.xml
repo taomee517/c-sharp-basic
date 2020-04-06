@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_c-sharp-basic.-294633349.00" t="ExcludeRecursive" />
+    <e p="F:\c#\github\c-sharp-basic" t="IncludeFlat">
+      <e p="basic-practise" t="IncludeRecursive">
+        <e p="ArrayShow.cs" t="Include" />
+        <e p="basic-practise.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Days.cs" t="Include" />
+        <e p="EntryPort.cs" t="Include" />
+        <e p="MathCalculator.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="basic-practise.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StringSample.cs" t="Include" />
+      </e>
+      <e p="c-sharp-basic.sln" t="IncludeFlat" />
+      <e p="class-demo" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Box.cs" t="Include" />
+        <e p="class-demo.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="class-demo.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Shape.cs" t="Include" />
+      </e>
+      <e p="console-input" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="console-input.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="console-input.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ShowMax.cs" t="Include" />
+      </e>
+      <e p="for-demo" t="IncludeRecursive">
+        <e p="ArrayData.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="for-demo.csproj" t="IncludeRecursive" />
+        <e p="MultiplicationTable.cs" t="Include" />
+        <e p="NarcissisticNumber.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="for-demo.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PrimeNumber.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="login-demo" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="login-demo.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="login-demo.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="time-convert" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DateTimeUtil.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="time-convert.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="time-convert.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
