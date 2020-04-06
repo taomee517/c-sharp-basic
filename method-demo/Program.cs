@@ -13,8 +13,8 @@ namespace method_demo
             ArrayUtil au = new ArrayUtil();
             
             //方案一：通过一个结构来接收返回值
-            // ArrayInfo ai = au.CalArrayInfo(array);
-            // Console.WriteLine("数组的最大值是： {0}， 最小值是：{1}， 总和是：{2}， 平均值是：{3:0.00}", ai._max, ai._min, ai._sum, ai._avg);
+            ArrayInfo ai = au.CalArrayInfo(array);
+            Console.WriteLine("数组的最大值是： {0}， 最小值是：{1}， 总和是：{2}， 平均值是：{3:0.00}", ai._max, ai._min, ai._sum, ai._avg);
             
 
             //方案二：通过out参数来接收返回值

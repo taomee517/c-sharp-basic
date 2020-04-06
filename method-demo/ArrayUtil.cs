@@ -1,4 +1,5 @@
-﻿using for_demo;
+﻿using System;
+using for_demo;
 
 namespace method_demo
 {
@@ -30,12 +31,13 @@ namespace method_demo
             }
 
             double avg = (double) sum / array.Length;
+            Save2Decimal(ref avg);
             return new ArrayInfo
             {
                 _max = max,
                 _min = min,
                 _sum = sum,
-                _avg = (double) sum / array.Length
+                _avg = avg
             };
         }
 
@@ -69,6 +71,16 @@ namespace method_demo
             }
 
             avg = (double) sum / array.Length;
+        }
+
+        /// <summary>
+        /// 保留两位小数
+        /// </summary>
+        /// <param name="value">源double类型的参数</param>
+        public static void Save2Decimal(ref double value)
+        {
+            string temp = value.ToString("0.00");
+            value = Double.Parse(temp);
         }
     }
 }
