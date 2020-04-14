@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Security.Cryptography;
+using Newtonsoft.Json;
+using Formatting = Newtonsoft.Json.Formatting;
 
 namespace class_demo
 {
@@ -27,6 +28,8 @@ namespace class_demo
             var triangleArea = calculator.CallArea(triangle);
             Console.WriteLine("长方形的面积是：{0}", rectArea);
             Console.WriteLine("三角形的面积是：{0}", triangleArea);
+            var json = JsonConvert.SerializeObject(box, Formatting.None);
+            Console.WriteLine("长方形json: {0}", json);
        }
     }
 }

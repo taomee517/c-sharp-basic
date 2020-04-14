@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class-demo", "class-demo\cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "method-demo", "method-demo\method-demo.csproj", "{762DAC47-966A-4CAE-8840-61B58FB49F31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "socket-thread", "socket-thread\socket-thread.csproj", "{A81952A3-0E7C-434E-9B22-A9BFE89633E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-basic", "wpf-basic\wpf-basic.csproj", "{FF2F53DE-34A0-45AE-BC37-4B23666C5D95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{762DAC47-966A-4CAE-8840-61B58FB49F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{762DAC47-966A-4CAE-8840-61B58FB49F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{762DAC47-966A-4CAE-8840-61B58FB49F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81952A3-0E7C-434E-9B22-A9BFE89633E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81952A3-0E7C-434E-9B22-A9BFE89633E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81952A3-0E7C-434E-9B22-A9BFE89633E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81952A3-0E7C-434E-9B22-A9BFE89633E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2F53DE-34A0-45AE-BC37-4B23666C5D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2F53DE-34A0-45AE-BC37-4B23666C5D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2F53DE-34A0-45AE-BC37-4B23666C5D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2F53DE-34A0-45AE-BC37-4B23666C5D95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
