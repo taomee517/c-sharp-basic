@@ -1,6 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 using Formatting = Newtonsoft.Json.Formatting;
+using JsonConverter = System.Text.Json.Serialization.JsonConverter;
 
 namespace class_demo
 {
@@ -29,7 +30,14 @@ namespace class_demo
             Console.WriteLine("长方形的面积是：{0}", rectArea);
             Console.WriteLine("三角形的面积是：{0}", triangleArea);
             var json = JsonConvert.SerializeObject(box, Formatting.None);
-            Console.WriteLine("长方形json: {0}", json);
+            Console.WriteLine("shape json: {0}", json);
+            
+            Account account = new Account();
+            account.Name = "taomee";
+            account.Phone = "13167818993";
+            account.Balance = 653.2;
+            string accJson = JsonConvert.SerializeObject(account);
+            Console.WriteLine("account json: {0}", accJson);
        }
     }
 }
