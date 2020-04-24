@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "regex", "regex\regex.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "collection-demo", "collection-demo\collection-demo.csproj", "{FA6F9157-8142-497C-896A-0414C01EA963}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "file-demo", "file-demo\file-demo.csproj", "{7AC18B1C-2E83-4390-9C3C-EAF96F223A94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{FA6F9157-8142-497C-896A-0414C01EA963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA6F9157-8142-497C-896A-0414C01EA963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA6F9157-8142-497C-896A-0414C01EA963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC18B1C-2E83-4390-9C3C-EAF96F223A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC18B1C-2E83-4390-9C3C-EAF96F223A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC18B1C-2E83-4390-9C3C-EAF96F223A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC18B1C-2E83-4390-9C3C-EAF96F223A94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
