@@ -35,14 +35,80 @@ namespace multi_thread
             // task.RunSynchronously();
             // Console.WriteLine("从新线程任务中得到执行结果：result = {0}",task.Result);
             
-
+            
+            //责任链模式
+            // var firstStep = new Task<int>(()=>1*5);
+            // var secondStep = firstStep.ContinueWith((firstTask) => firstTask.Result * 5);
+            // firstStep.Start();
+            // Console.WriteLine("第二步的结果：result = {0}", secondStep.Result);
+            
+            
+            //waitAny 与 waitAll
+            // var tasks = new Task[3];
+            // for (var i = 0; i < tasks.Length; i++)
+            // {
+            //     var index = i;
+            //     tasks[i] = Task.Factory.StartNew(() => {Console.WriteLine("执行任务{0}", index);});
+            // }
+            // Task.WaitAny(tasks);
+            // Console.WriteLine("已有任务完成！");
+            //
+            // Task.WaitAll(tasks);
+            // Console.WriteLine("所有任务已完成！");
+            
+            
+            //Exception handle
+            // var task = Task.Factory.StartNew(() =>
+            //     {
+            //         Task.Factory.StartNew(() => { throw new Exception("child exception"); }, TaskCreationOptions.AttachedToParent);
+            //     });
+            // task.Wait();
+            
+            
+            //task cancel
+            // var source = new CancellationTokenSource();
+            // var token = source.Token;
+            // var task = Task.Factory.StartNew(() =>
+            // {
+            //     Console.WriteLine("task start");
+            //     //开启一个循环任务
+            //     while (true)
+            //     {
+            //         token.ThrowIfCancellationRequested();
+            //         Console.WriteLine("I'm still alive. current time is {0}", DateTime.Now);
+            //         Thread.Sleep(1000);
+            //     }
+            // }, token);
+            //
+            // var cancelTask = Task.Factory.StartNew(() =>
+            // {
+            //     //4.5秒后中止任务
+            //     Thread.Sleep(4500);
+            //     source.Cancel();
+            // });
+            //
+            // try
+            // {
+            //     task.Wait();
+            //     Console.WriteLine("task stopped");
+            // }
+            // catch(Exception e)
+            // {
+            //     if (e.InnerException is OperationCanceledException)
+            //     {
+            //         Console.WriteLine("task canceled");
+            //     }
+            //     else
+            //     {
+            //         Console.WriteLine("Error");
+            //     }
+            // }
+            
+            
             //case 2: thread pool
             // ThreadPool.QueueUserWorkItem(new WaitCallback(state => {Go();}));
-            
-            var firstStep = new Task<int>(()=>1*5);
-            var secondStep = firstStep.ContinueWith((firstResult) => firstResult.Result * 5);
-            firstStep.Start();
-            Console.WriteLine("第二步的结果：result = {0}", secondStep.Result);
+
+
         }
         
         private static void Record(string name)

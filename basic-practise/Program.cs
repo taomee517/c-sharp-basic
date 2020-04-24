@@ -2,7 +2,7 @@
 
 namespace console_demo
 {
-    class EntryPort
+    class Program
     {
         public static void Main(string[] args)
         {
