@@ -5,7 +5,8 @@ namespace file_demo
 {
     class Program
     {
-        const string path = @"D:\taomee files\work\laser range finder\test\启动命令.txt";
+        // const string path = @"D:\taomee files\work\laser range finder\test\启动命令.txt";
+        private const string path = @"E:\private\test\logs\test.txt";
         static void Main(string[] args)
         {
             //读取磁盘信息
@@ -26,13 +27,15 @@ namespace file_demo
 
 
             //文件流操作
-            StreamUtil.PrintFileContent(path);
-
-            var newFilePath = Path.GetDirectoryName(path) + "\\test.txt";
-            var writer = new StreamWriter(newFilePath);
-            writer.WriteLine("Hello,World!");
-            writer.Flush();
-            writer.Close();
+            // StreamUtil.PrintFileContent(path);
+            //
+            // var newFilePath = Path.GetDirectoryName(path) + "\\test.txt";
+            // var writer = new StreamWriter(newFilePath);
+            // writer.WriteLine("Hello,World!");
+            // writer.Flush();
+            // writer.Close();
+            
+            BinaryReaderUtil.ReadFileContent(path);
         }
     }
 }
