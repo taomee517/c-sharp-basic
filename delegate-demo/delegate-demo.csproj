@@ -6,4 +6,20 @@
         <RootNamespace>delegate_demo</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="obj\Debug\netcoreapp3.1\delegate-demo.assets.cache" />
+      <Content Include="obj\Debug\netcoreapp3.1\delegate-demo.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\netcoreapp3.1\delegate-demo.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\netcoreapp3.1\delegate-demo.csprojAssemblyReference.cache" />
+      <Content Include="obj\Debug\netcoreapp3.1\delegate-demo.exe" />
+      <Content Include="obj\Debug\netcoreapp3.1\delegate-demo.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\netcoreapp3.1\delegate-demo.pdb" />
+      <Content Include="obj\delegate-demo.csproj.nuget.dgspec.json" />
+      <Content Include="obj\delegate-demo.csproj.nuget.g.props" />
+      <Content Include="obj\delegate-demo.csproj.nuget.g.targets" />
+      <Content Include="obj\project.assets.json" />
+      <Content Include="obj\project.nuget.cache" />
+      <Content Include="obj\project.packagespec.json" />
+    </ItemGroup>
+
 </Project>
