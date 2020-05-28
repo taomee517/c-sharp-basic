@@ -25,11 +25,16 @@ namespace regex
             // 6	{n, }	n次以上字符
             
             // var pattern = @"^\d{4}$";
-            var pattern = @"^CL\d{5}$";
-            var regex = new Regex(pattern);
-            Console.WriteLine("请输入监控量测设备号：");
-            var data = Console.ReadLine();
-            Console.WriteLine("匹配结果：{0}", regex.IsMatch(data));
+            // var pattern = @"^CL\d{5}$";
+            // var regex = new Regex(pattern);
+            // Console.WriteLine("请输入监控量测设备号：");
+            // var data = Console.ReadLine();
+            // Console.WriteLine("匹配结果：{0}", regex.IsMatch(data));
+
+            var ch = "龖";
+            var bytes =  System.Text.Encoding.Default.GetBytes(ch);
+            Console.WriteLine(Convert.ToString(bytes[0],16));
+            Console.WriteLine(Convert.ToString(bytes[1],16));
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -108,7 +109,10 @@ namespace multi_thread
             //case 2: thread pool
             // ThreadPool.QueueUserWorkItem(new WaitCallback(state => {Go();}));
 
-
+            for (int i = 0; i < 1000; i++)
+            {
+                Console.WriteLine(GetSerial("key"));
+            }
         }
         
         private static void Record(string name)
@@ -120,5 +124,22 @@ namespace multi_thread
         {
             Console.WriteLine("开启新线程任务！ thread = {0}", Thread.CurrentThread.ManagedThreadId);
         }
+        
+        private static ConcurrentDictionary<string,int> SerialMap = new ConcurrentDictionary<string, int>();
+
+        public static int GetSerial(string key)
+        {
+            var serial = 0;
+            if (!SerialMap.ContainsKey(key))
+            {
+                SerialMap[key] = serial;
+                return serial;
+            }
+            var temp = SerialMap[key];
+            serial = Interlocked.Increment(ref temp)% 0x100;
+            SerialMap[key] = serial;
+            return serial;
+        }
+        
     }
 }

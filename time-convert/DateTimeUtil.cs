@@ -51,5 +51,27 @@ namespace time_convert
 
             return workingDays;
         }
+        
+        
+        // DateTime --> long
+        public static long ConvertDateTimeToLong(DateTime dt)
+        {
+            var dtStart = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1));
+            var toNow = dt.Subtract(dtStart);
+            var timeStamp = toNow.Ticks;
+            timeStamp = long.Parse(timeStamp.ToString().Substring(0, timeStamp.ToString().Length - 4));
+            return timeStamp;
+        }
+
+
+        // long --> DateTime
+        public static DateTime ConvertLongToDateTime(long d)
+        {
+            var dtStart = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1));
+            var lTime = long.Parse(d + "0000");
+            var toNow = new TimeSpan(lTime);
+            var dtResult = dtStart.Add(toNow);
+            return dtResult;
+        }
     }
 }
