@@ -106,6 +106,15 @@ namespace multi_thread
             // }
             
             
+            //Action
+            Action<string> act = SayHi;
+            for (var i = 0; i < 4; i++)
+            {
+                var tempName = "name_" + i;
+                act(tempName);
+            }
+
+
             //case 2: thread pool
             // ThreadPool.QueueUserWorkItem(new WaitCallback(state => {Go();}));
 
@@ -123,6 +132,17 @@ namespace multi_thread
         private static void Go()
         {
             Console.WriteLine("开启新线程任务！ thread = {0}", Thread.CurrentThread.ManagedThreadId);
+        }
+
+        private static Task<string> SayHello()
+        {
+            return Task.Factory.StartNew(() => "Hello!");
+        }
+
+        private static void SayHi(string name)
+        {
+            Console.WriteLine("任务线程, thread = {0}",Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("Hi,{0}!",name);
         }
         
         private static ConcurrentDictionary<string,int> SerialMap = new ConcurrentDictionary<string, int>();
